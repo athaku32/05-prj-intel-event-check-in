@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -380,5 +381,17 @@ select {
 
   .teams-grid {
     grid-template-columns: 1fr;
+  }
+
+  .team-count {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+  }
+
+  #attendeeListSection h3 {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 14px;
   }
 }
